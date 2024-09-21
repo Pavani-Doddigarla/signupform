@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+*{
+    margin:0%;
+    box-sizing: border-box;
+    font-family: "Sofadi One", system-ui;
+    /* border: 2px groove deeppink; */
+}
+
+.sec1{
+    display:flex;
+    flex-direction: row;
+}
+
+.one{
+    width: 50%;
+}
+
+.two{
+    width: 50%;
+}
+
+.two #myForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.two h1{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 30%;
+    color: rgb(239, 114, 181);
+    text-decoration: underline 3px double rgb(28, 141, 175);
+}
+
+#myForm label{
+    color: rgb(23, 122, 208);
+    margin-top: 2%;
+}
+
+input[type="text"],[type="email"],[type="password"]{
+    /* border: none; */
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px grey;
+    padding: 1%;
+    margin-bottom: 1%;
+    width: 70%;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="checkbox"]{
+    accent-color: rgb(85, 187, 85);
+    margin-right: 2%;
+}
+
+.btn{
+    width: 10%;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(127, 129, 245);
+    background-color: rgb(206, 248, 248);
+    border: 2px solid rgb(108, 108, 240);
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.btn:hover{
+    color: rgb(231, 3, 171);
+    background-color: deepskyblue;
+}
+
+hr{
+    width: 70%;
+}
+
+h6{
+    text-align: center;
+    padding-right: 30%;
+    font-size: 14px;
+}
+
+h6 a{
+    text-decoration: none;
+    color: rgb(110, 110, 218);
+}
